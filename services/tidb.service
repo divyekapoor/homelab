@@ -1,0 +1,11 @@
+[Unit]
+Description=TiDB
+
+[Service]
+User=divyekapoor
+WorkingDirectory=/home/divyekapoor/src/homelab
+ExecStart=/home/divyekapoor/.tiup/bin/tiup playground --host 0.0.0.0
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
