@@ -1,0 +1,12 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+    - name: divyekapoor
+      ssh_authorized_keys:
+        - AAAAB3NzaC1yc2EAAAADAQABAAABAQDB+UL52dj37ct9/b//ya1FzZYcS1R2GWCrAgjK2MVRWMsT3nhO620UCQl3xTLjvTVlilI3CS1r5rfXz5lDE1HuFgaLawEQUYKXO1TS9mYPNTJyExk5Dn0fSDjnT1Dx0B/EBXz0ooGvFfxMo0MxGhQWURK4IbW8iaSKsbL3IAlsdnk0FWs+s+QKFeS5pFi77Zb593Qs5HWCmv8HnQ7ZSpSAyJEaqv2A0GtzWpvGRpZKn++gw7XfcIPIc6iJWVtqlRfYQuOKpYxnnXL/13BLJANN52MT0HkE7o0Lk4t2FJ7a9IIugT8EzuL1Byx4s2kujpeNxk9C6CDRpZyhjx2dboUX
+      home_dir: /home/divyekapoor
+      groups:
+        - wheel
+        - plugdev
+      shell: /bin/bash
