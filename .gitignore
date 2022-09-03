@@ -1,2 +1,3 @@
 prefect/venv
 .vscode/settings.json
+rust/**/target
