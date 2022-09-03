@@ -5,7 +5,16 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build-dependencies]
+clippy = { version = "*", optional = true }
+
+[features]
+default = []
+
 [dependencies]
 almost-raft = "0.3.0"
 eyre = "0.6.8"
+log = "0.4.17"
 log4rs = "1.1.1"
+pyo3 = "0.17.1"
+serde_yaml = "0.9.11"
