@@ -9,4 +9,5 @@ name = "nettle_py"
 crate-type = ["cdylib"]
 
 [dependencies]
+log = "0.4.17"
 pyo3 = { version = "0.16.5", features = ["extension-module"] }
