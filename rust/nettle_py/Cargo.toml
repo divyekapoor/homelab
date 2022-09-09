@@ -10,8 +10,15 @@ crate-type = ["cdylib"]
 
 [dependencies]
 color-eyre = "0.6.2"
+dashmap = "5.4.0"
+derivative = "2.2.0"
 eyre = { version = "0.6.8", features = ["pyo3"] }
+globals = "1.0.4"
 log = "0.4.17"
 log4rs = "1.1.1"
+once_cell = "1.14.0"
 pyo3 = { version = "0.16.5", features = ["extension-module", "eyre"] }
 serde_yaml = "0.9.11"
+tokio = { version = "1.21.0", features = ["sync"] }
+uuid = { version = "1.1.2", features = ["v5", "fast-rng"] }
+zmq2 = "0.5.0"
