@@ -2,3 +2,4 @@ prefect/venv
 .vscode/settings.json
 rust/**/target
 rust/**/.venv
+.DS_Store
