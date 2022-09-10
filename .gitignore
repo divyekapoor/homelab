@@ -4,3 +4,4 @@ rust/**/target
 rust/**/.venv
 .DS_Store
 pulsar/**/logs
+pulsar/**/data
