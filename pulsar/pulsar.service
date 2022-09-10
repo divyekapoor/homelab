@@ -1,0 +1,8 @@
+[Unit]
+Description=Apache Pulsar Standalone
+
+[Service]
+ExecStart=/home/divyekapoor/src/homelab/pulsar/apache-pulsar-2.10.1/bin/pulsar standalone
+
+[Install]
+WantedBy=multi-user.target
