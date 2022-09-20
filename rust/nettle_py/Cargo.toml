@@ -21,4 +21,4 @@ pyo3 = { version = "0.16.5", features = ["extension-module", "eyre"] }
 serde_yaml = "0.9.11"
 tokio = { version = "1.21.0", features = ["sync"] }
 uuid = { version = "1.1.2", features = ["v5", "fast-rng"] }
-zmq2 = "0.5.0"
+zmq = { git = "https://github.com/divyekapoor/zmq2", branch = "patch-1" }
