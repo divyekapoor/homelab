@@ -11,6 +11,8 @@ packages = [{include = "oh_my_secrets"}]
 python = "^3.10"
 Flask = "^2.2.2"
 loguru = "^0.6.0"
+apscheduler = "^3.9.1.post1"
+ipy = "^1.1"
 
 
 [build-system]
