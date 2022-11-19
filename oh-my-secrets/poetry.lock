@@ -207,7 +207,7 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d13c42cc75b8220c2c6aecad072bdd4da159de766eb5547c11a9781b35e87e5b"
+content-hash = "01fa652e9194d883a5538fc0c313fee40e0dfc5a6cdfddb6fa0b06cfedda0ad2"
 
 [metadata.files]
 apscheduler = [

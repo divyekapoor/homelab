@@ -57,6 +57,11 @@ def verify_admin_token_or_throw():
         return
     raise AdminAuthenticationError()
 
+@app.route('/')
+def default():
+    logger.info('Url map: {}', app.url_map)
+    return str(app.url_map)
+
 @app.route('/secrets')
 def get_all():
     verify_machine_token_or_throw()
@@ -100,6 +105,11 @@ def machines_unregister(token):
     verify_admin_token_or_throw()
     del machines[token]
     return {}
+
+@app.cli.command('add-admin-user')
+@click.argument('name')
+def add_admin_user(name):
+    admins[name] = 'CLI'
 
 if __name__ == '__main__':
     app.run(use_reloader=False, host='0.0.0.0', port=59999, debug=True)
