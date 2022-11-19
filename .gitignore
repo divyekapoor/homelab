@@ -5,3 +5,4 @@ rust/**/.venv
 .DS_Store
 pulsar/**/logs
 pulsar/**/data
+*.pyc
